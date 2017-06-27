@@ -1,0 +1,50 @@
+body {
+    max-width: 1080px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div {
+    border: 1px solid red;
+}
+
+.container {
+    display: flex;
+}
+
+.explorer {
+    background-color: #eee;
+    min-width: 400px;
+}
+
+.viewer {
+    background-color: #b9f0cc;
+    min-width: 20px;
+    flex-grow: 1;
+    height: 50%;
+    overflow: scroll;
+    overflow-x: auto;
+    padding: 10px;
+    text-align: left;   
+}
+
+.header h1 {
+    display: inline-block;
+}
+
+.header span {
+    float: right
+}
+
+.header {
+    overflow: auto;
+}
+
+.breadcomb {
+    background-color: #d8b6b6;
+    min-height: 30px;
+}
+
+.viewer-container {
+    flex-grow: 1;
+}

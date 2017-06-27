@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+
+<body>
+    <div  class="header">
+        <h1>File Explorer</h1>
+    </div>
+    <div class="container">
+        <div class="explorer">
+<!--
+             <% files.forEach(function(file) { %>
+-->
+                <p>
+                <a href="dir/<%= file %>">
+                    <%=file%>
+                </a>
+                </p>
+
+<!--
+            <%})%>
+-->
+        </div>
+        <div class="viewer">
+                <div class="breadcomb"></div>
+        </div>
+    </div>
+
+           
+
+</body>
+
+</html>
